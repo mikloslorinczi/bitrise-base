@@ -1,0 +1,8 @@
+# Once an "Alpha" is properly tested and declared as Production Ready, a "pinned" version is created
+# and published. Pinned versions are considered production ready, and the "latest" pinned version
+# is pre-cached on the https://www.bitrise.io Linux/Android Virtual Machines.
+# Read more about how versions are handled in the README.md
+
+FROM quay.io/bitriseio/bitrise-base:alpha-v2019_08_08-02_02-b1724
+
+CMD bitrise --version
